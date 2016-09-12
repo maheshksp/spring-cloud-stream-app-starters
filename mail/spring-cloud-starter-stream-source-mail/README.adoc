@@ -1,7 +1,7 @@
 //tag::ref-doc[]
 = Mail Source
 
-A source module that listens for Emails  and emits the message body as a message payload.
+A source module that listens for Emails and emits the message body as a message payload.
 
 
 == Options
