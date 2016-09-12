@@ -18,7 +18,7 @@
 				<artifactId>spring-cloud-stream-app-maven-plugin</artifactId>
 				<version>${scs-app-maven-plugin.version}</version>
 				<configuration>
-					<javaVersion>1.7</javaVersion>
+					<javaVersion>1.8</javaVersion>
 					<bootVersion>1.3.5.RELEASE</bootVersion>
 					<generatedProjectHome>${session.executionRootDirectory}/apps</generatedProjectHome>
 					<generatedProjectVersion>${project.version}</generatedProjectVersion>
@@ -171,6 +171,7 @@
 						<load-generator-source>
 							<extraTestConfigClass>org.springframework.cloud.stream.app.test.loadgenerator.LoadGeneratorSourceTestConfiguration.class</extraTestConfigClass>
 						</load-generator-source>
+						<tail-source/>
 					</generatedApps>
 					<extraRepositories>
 						<repository>
